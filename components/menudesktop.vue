@@ -1,73 +1,97 @@
 <template>
   <div class="is-hidden-mobile is-hidden-tablet-only">
     <div class="menu-container w-100-z-index-2 box columns is-vcentered py-2 mt-5">
-      <div class="column"></div>
+      <div class="column is-3"></div>
       <div class="column has-text-centered">
-        <div class="columns">
+        <div class="columns is-centered">
           <div class="column">
             <NuxtLink to="/" class="">
               <div class="is-flex is-justify-content-center menu-hover">
-                <img src="icons8-home-24.png" alt="" class="menu-icon">
-                <span class="hover-text">داشبورد</span>
+                <img src="Profile Square.png" alt="" class="menu-icon">
+                <span class="hover-text">
+                  <img src="userprofile.png" alt="" class="menu-icon-small">
+                  داشبورد</span>
               </div>
             </NuxtLink>
           </div>
           <div class="column">
             <NuxtLink to="/contactus" class="">
               <div class="is-flex is-justify-content-center menu-hover">
-                <img src="icons8-bell-24.png" alt="" class="menu-icon">
-                <span class="hover-text">اطلاعات تماس با ما</span>
+                <img src="Calling 11.png" alt="" class="menu-icon">
+                <span class="hover-text">
+                  <img src="Calling 1.png" alt="" class="menu-icon-small">
+                  اطلاعات تماس با ما</span>
               </div>
             </NuxtLink>
           </div>
           <div class="column">
             <NuxtLink to="/devices" class="">
               <div class="is-flex is-justify-content-center menu-hover">
-                <img src="icons8-bell-24.png" alt="" class="menu-icon">
-                <span class="hover-text"> دستگاه ها</span>
+                <img src="Display 11.png" alt="" class="menu-icon">
+                <span class="hover-text"> 
+                  <img src="Display 1.png" alt="" class="menu-icon-small">
+                  دستگاه ها</span>
               </div>
             </NuxtLink>
           </div>
           <div class="column">
             <NuxtLink to="/Managealarms" class="">
               <div class="is-flex is-justify-content-center menu-hover">
-                <img src="icons8-bell-24.png" alt="" class="menu-icon">
-                <span class="hover-text"> اعلان ها</span>
+                <img src="Notification 33.png" alt="" class="menu-icon">
+                <span class="hover-text"> 
+                  <img src="Notification 3.png" alt="" class="menu-icon-small">
+                  اعلان ها</span>
               </div>
             </NuxtLink>
           </div>
           <div class="column">
             <NuxtLink to="/Usermanagement" class="">
               <div class="is-flex is-justify-content-center menu-hover">
-                <img src="icons8-setting-24.png" alt="" class="menu-icon">
-                <span class="hover-text">مدیریت مشتریان</span>
+                <img src="Group 3.png" alt="" class="menu-icon">
+                <span class="hover-text">
+                  <img src="Group 4.png" alt="" class="menu-icon-small">
+                  مدیریت مشتریان
+                </span>
               </div>
             </NuxtLink>
           </div>
           <div class="column">
             <NuxtLink to="/ticketing" class="">
               <div class="is-flex is-justify-content-center menu-hover">
-                <img src="icons8-user-plus-24.png" alt="" class="menu-icon">
-                <span class="hover-text">تیکتینگ</span>
+                <img src="Message 3.png" alt="" class="menu-icon">
+                <span class="hover-text">
+                  <img src="Message 4.png" alt="" class="menu-icon-small">
+                  تیکتینگ
+                </span>
               </div>
             </NuxtLink>
           </div>
         </div>
       </div>
-      <div class="column has-text-left is-3">
-        <NuxtLink to="/login" class="">
-          <div class="is-flex is-justify-content-left pl-4">
+      <div class="column py-0 has-text-left is-one-fifth">
+        <div class="is-flex is-justify-content-left pl-4 hover-background">
+          <NuxtLink to="/login" class="is-flex">
             <img class="pl-4" src="icons8-log-out-24.png" alt="">
             <p>خروج از حساب کاربری</p>
-          </div>
-        </NuxtLink>
+          </NuxtLink>
+        </div>
       </div>
+
+
     </div>
   </div>
 </template>
 
 <style scoped>
+.hover-background:hover {
+  background-color: #ff3860; /* رنگ قرمز */
+  padding: 5px;
+  border-radius: 4px;
+}
 
+.hover-background:hover p {
+  color: white; /* رنگ متن سفید */
+}
 
 .menu-hover {
   position: relative;
@@ -84,7 +108,7 @@
 }
 
 .hover-text {
-  position: absolute;
+position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -96,11 +120,17 @@
   transition: opacity 0.3s ease, transform 0.3s ease;
   white-space: nowrap;
   z-index: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 100px;
 }
-.logout-hover :hover{
-color: white;
-background-color: rgb(212, 27, 14);
+
+.logout-hover :hover {
+  color: white;
+  background-color: rgb(212, 27, 14);
 }
+
 .menu-hover:hover .hover-text {
   opacity: 1;
   transform: translate(-50%, -50%);

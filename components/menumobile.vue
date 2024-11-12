@@ -12,26 +12,42 @@
                 <ul>
                     <li class="my-4">
                         <NuxtLink to="/" class="menu-hover is-flex">
-                            <img src="icons8-home-24.png" alt="" class="pl-4">
-                            <p class="width-text-118px">داشبورد</p>
+                            <img src="Profile Square.png" alt="" class="pl-4">
+                            <p>داشبورد</p>
+                        </NuxtLink>
+                    </li>
+                    <li class="my-4">
+                        <NuxtLink to="/contactus" class="menu-hover is-flex">
+                            <img src="Calling 11.png" alt="" class="pl-4">
+                            <p>اطلاعات تماس با ما</p>
+                        </NuxtLink>
+                    </li>
+                    <li class="my-4">
+                        <NuxtLink to="/devices" class="menu-hover is-flex">
+                            <img src="Display 11.png" alt="" class="pl-4">
+                            <p> دستگاه ها</p>
                         </NuxtLink>
                     </li>
                     <li class="my-4">
                         <NuxtLink to="/Managealarms" class="menu-hover is-flex">
-                            <img src="icons8-bell-24.png" alt="" class="pl-4">
-                            <p class="width-text-118px">مدیریت آلارم ها</p>
+                            <img src="Notification 33.png" alt="" class="pl-4">
+                            <p> اعلان ها</p>
                         </NuxtLink>
                     </li>
                     <li class="my-4">
-                        <NuxtLink to="/Supportmanagement" class="menu-hover is-flex">
-                            <img src="icons8-setting-24.png" alt="" class="pl-4">
-                            <p class="width-text-118px">مدیریت پشتیبانی</p>
+                        <NuxtLink to="/Usermanagement" class="logout-hover">
+                            <div class="is-flex pl-4">
+                                <img class="pl-4" src="Group 3.png" alt="">
+                                <p> مدیریت مشتریان </p>
+                            </div>
                         </NuxtLink>
                     </li>
                     <li class="my-4">
-                        <NuxtLink to="/Usermanagement" class="menu-hover is-flex">
-                            <img src="icons8-user-plus-24.png" alt="" class="pl-4">
-                            <p class="width-text-118px">مدیریت کاربران</p>
+                        <NuxtLink to="/ticketing" class="logout-hover">
+                            <div class="is-flex pl-4">
+                                <img class="pl-4" src="Message 3.png" alt="">
+                                <p>تیکتینگ </p>
+                            </div>
                         </NuxtLink>
                     </li>
                     <li class="my-4">
