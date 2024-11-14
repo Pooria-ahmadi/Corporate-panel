@@ -4,7 +4,7 @@
             <div class="section background-section has-background-white">
                 <div class="columns is-vcentered is-centered">
                     <div class="column has-text-centered">
-                        <div class="box login-box has-text-centered has-text-white">
+                        <div class="box singup-box has-text-centered has-text-white">
                             <p class="is-size-4 has-text-weight-bold">
                                 ثبت نام
                             </p>
@@ -42,30 +42,9 @@
 </template>
 
 <style scoped>
-.background-section {
-    background-image: url('/Grid 1.png');
-    /* Replace with your image path */
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    /* Full viewport height */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.login-box {
-    background-color: rgba(141, 121, 209, 0.8);
-    /* Purple color with transparency */
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    /* Optional shadow for depth */
-}
 
 .input {
     background-color: rgba(255, 255, 255, 0.9);
-    /* Slightly transparent input background */
 }
 
 .button.is-primary {

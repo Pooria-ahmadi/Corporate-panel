@@ -108,16 +108,16 @@
 }
 
 .hover-text {
-position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-150%, -50%);
   background-color: #5468B1;
   color: white;
   padding: 5px 10px;
   border-radius: 4px;
   opacity: 0;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition: opacity 0.3s ease, transform 0.5s ease;
   white-space: nowrap;
   z-index: 0;
   display: inline-flex;

@@ -141,7 +141,7 @@
 
 
 
-      <div class="columns mx-0 mt-4">
+      <div class="columns mx-0 my-4">
         <div class="column box pr-5 is-4 mb-0 is-align-content-center custom-column-spacing">
           <div class="columns is-mobile">
             <div class="column has-text-right">
